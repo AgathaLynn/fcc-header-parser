@@ -1,0 +1,23 @@
+{
+  "name": "fcc-header-parser",
+  "version": "1.0.0",
+  "description": "Request Header Parser API project (part of the FreeCodeCamp curriculum)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgathaLynn/fcc-header-parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgathaLynn/fcc-header-parser/issues"
+  },
+  "homepage": "https://github.com/AgathaLynn/fcc-header-parser#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
