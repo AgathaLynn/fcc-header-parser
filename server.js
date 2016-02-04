@@ -18,6 +18,6 @@ app.get('/api', function(req, res) {
     res.send(JSON.stringify(parser.parse_header(data)));
 });
 
-app.listen(8080, function() {
-    console.log('Listening on port 8080...');
+app.listen(process.env.PORT || 8080, function() {
+    console.log('Listening on assigned port...');
 });
